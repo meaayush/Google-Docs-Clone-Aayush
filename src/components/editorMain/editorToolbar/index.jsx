@@ -61,7 +61,7 @@ export const formats = [
   "code-block"
 ];
 
-export const QuillToolbar = () => (
+export const EditorToolbar = () => (
   <div id="toolbar">
     <span className="ql-formats">
       <select className="ql-font" defaultValue="arial">
@@ -119,4 +119,4 @@ export const QuillToolbar = () => (
   </div>
 );
 
-export default QuillToolbar;
+export default EditorToolbar;
